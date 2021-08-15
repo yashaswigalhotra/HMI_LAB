@@ -1,1 +1,6 @@
 # HMI_LAB
+## Problem:-
+#### Task is to assign a single emotion label to the video clip from the eight universal emotions (Calm, Happy,Sad, Angry, Fearful, Disgust, Surprised and Neutral) on the given multimodal dataset. Use the first 20 actors for the training and rest for testing.
+
+## Solution Proposed :-
+#### I built a model to recognize emotion from speech using the librosa and sklearn libraries. Trained and tested my model on Ryerson Audio-Visual Database of Emotional Speech and Song dataset. In this proposed solution, I will use the libraries librosa, soundfile, and sklearn to build a model using an MLP Classifier. Multi-layer Perceptron (MLP) is a supervised learning algorithm that learns a function by training on a dataset, where is the number of dimensions for input and is the number of dimensions for output. This is a Multi-layer Perceptron Classifier it optimizes the log-loss function using Limited Memory Broyden–Fletcher–Goldfarb–Shanno . Unlike SVM or Naive Bayes, the MLP Classifier has an internal neural network for the purpose of classification. This is a feedforward ANN model. We will load the data, extract features from it, then split the dataset into training and testing sets. Then, we’ll initialize an MLP Classifier and train the model. Finally, we’ll calculate the accuracy,precision, recall, F1 score and confusion matrix of our model.
